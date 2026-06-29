@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comida</title>
+</head>
+<body>
+    <a class="dec" href="cozinha.html">
+        <img src="assets/food.jpeg" alt="Imagem de decoração" />
+    </a>
+    <h1>Comidas</h1>
+     <a class="snopm" href="cozinha.html">
+        <img src="assets/Sem nome (336 x 436 px).png" alt="Imagem representando cozinheiro" />
+    </a>
+    <a class="food" href="cozinha.html">
+        <img src="assets/cumida.jpeg" alt="Imagem representando comida" />
+    </a>
+
+<input type="text" id="ingrediente" placeholder="Digite um ingrediente ">
+<input type="text" id="ingrediente2" placeholder="Digite mais um ingrediente">
+<textarea id="detalhes" placeholder="Conte mais detalhes"></textarea>
+<button type="button" id="ver">Analisar</button>
+<div id="resultado" class="resultado"></div>
+
+<script src="ia.js"></script>
+<script>
+document.getElementById("ver").addEventListener("click", () => {
+  const ing1 = document.getElementById("ingrediente").value;
+  const ing2 = document.getElementById("ingrediente2").value;
+  const detalhes = document.getElementById("detalhes").value;
+
+  const prompt = `Crie uma receita com: ${ing1}, ${ing2}. Detalhes: ${detalhes}`;
+
+  perguntarIA(prompt, "resultado");
+});
+</script>
+
+
+  <a class="pao" href="cozinha.html">
+        <img src="assets/pao.jpeg" alt="Imagem"/>
+  </a>
+
+    <a class="cat" href="cozinha.html">
+        <img src="assets/fire.jpeg" alt="Imagem"/>
+    </a>
+</body>
+</html>

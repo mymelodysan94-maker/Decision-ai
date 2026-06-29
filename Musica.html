@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Musicas</title>
+</head>
+<body>
+    <h1>Musicas</h1>
+        <a class="sla" href="musica.html">
+        <img src="assets/WhatsApp .jpeg" alt="Imagem representando piano"/>
+        </a>
+
+   <a class="snopm" href="musica.html">
+        <img src="assets/musica.png" alt="Imagem representando musica"/>
+  </a>
+<input type="text" id="musica1" placeholder="Digite uma música ">
+<input type="text" id="musica2" placeholder="Digite mais uma musica">
+<textarea id="pedido" placeholder="Conte mais detalhes"></textarea>
+<button type="button" id="mandar">Analisar</button>
+<div id="resultado" class="resultado"></div>
+
+<script src="ia.js"></script>
+<script>
+document.getElementById("mandar").addEventListener("click", () => {
+  const m1 = document.getElementById("musica1").value;
+  const m2 = document.getElementById("musica2").value;
+  const pedido = document.getElementById("pedido").value;
+
+  const prompt = `Sugira músicas com base em: ${m1}, ${m2}. Detalhes: ${pedido}`;
+
+  perguntarIA(prompt, "resultado");
+});
+</script>
+
+    <a class="musi" href="musica.html">
+        <img src="assets/musi.jpg" alt="Imagem"/>
+    </a>
+    <a class="gato" href="musica.html">
+        <img src="assets/cat.jpeg" alt="Imagem"/>
+
+
+
+
+</body>
+</html>

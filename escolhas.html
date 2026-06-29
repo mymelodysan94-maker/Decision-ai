@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+       <a class="decorai" href="index.html">
+        <img src="assets/luz.png" alt="Imagem de decoração" />
+    </a>
+
+    <h1>Escolhas</h1>
+     <a class="snopm" href="escolhas.html">
+        <img src="assets/Design inicio.png" alt="Imagem representando tela de escolhas" />
+    </a>
+     <a class="aura" href="escolhas.html">
+        <img src="assets/core.jpeg" alt="Imagem de decoração" />
+    </a>
+ 
+<input type="text" id="decisão1" placeholder="Digite uma decisão a ser tomada">
+<input type="text" id="decisão2" placeholder="digite mais uma decisão a ser tomada">
+<textarea id="promp" placeholder="Conte mais detalhes"></textarea>
+<button type="button" id="enviar">Analisar</button>
+<div id="resultado" class="resultado"></div>
+
+<script src="ia.js"></script>
+<script>
+document.getElementById("enviar").addEventListener("click", () => {
+  const d1 = document.getElementById("decisão1").value;
+  const d2 = document.getElementById("decisão2").value;
+    const promp = document.getElementById("promp").value;
+
+    const prompt = `Me ajude a escolher entre: ${d1} e ${d2}. Detalhes adicionais: ${promp}`;
+
+  perguntarIA(prompt, "resultado");
+});
+</script>
+
+<a class="an" href="escolhas.html">
+        <img src="assets/dumb.jpeg" alt="Imagem"/>
+    </a>
+<a class="cat" href="escolhas.html">
+        <img src="assets/67.jpeg" alt="Imagem"/>
+</a>
+
+<a class="decorakey" href="escolhas.html">
+        <img src="assets/finaly.jpeg" alt="Imagem de decoração" />
+    </a>
+
+
+
+</script>
+</body>
+</html>

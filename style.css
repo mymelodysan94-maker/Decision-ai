@@ -1,0 +1,85 @@
+h1 {background-color: rgb(244, 222, 167); text-align:center; color:#ca8e52; 
+    font-family: "comic sans ms","comic sans", cursive, sans-serif;}
+        h1:hover {transform: scale(1.2);}
+body {background-color:lch(40.62% 23.55 69.44)}
+.container {display: flex; gap: 12px; flex-direction: column;}
+
+.escolhas {padding: 12px 18px; background-color: #fceec3; color: rgb(99, 53, 3); 
+    text-decoration: underline; border-radius: 40px;box-shadow: 0 6px 20px #f6bf58; font-weight: bold;
+    width: 180px; height: 35px; font-family:"brush script mt", cursive; font-size: 35px; text-align: center;}
+    .escolhas:hover {background-color: #f6bf58; color: rgb(99, 53, 3); text-decoration: underline; 
+        border-radius: 40px;box-shadow: 0 6px 20px #fceec3; font-weight: bold;}
+
+.snopm {float: right; border-radius: 2px; background-color:lab(91.15% -1.54 43.32);border-radius: 10px} 
+.snopm:hover {background-color:lab(29.85% 6.06 24.41);border-radius: 10px;box-shadow: 0 6px 20px #f6bf58
+    ; font-weight: bold;transform: scale(1.1)}
+.decoration { display: flex; justify-content: center; align-items: center; height: 2vh;       }
+
+h2 {color:rgb(233, 224, 180); }
+h3 {background-color:#d0c7aa;color:rgb(53, 28, 1);border-radius: 10px;}
+
+.bitter { display: flex; justify-content: center; align-items: center; height: 2vh;       }
+
+input { display: flex; margin: 14px auto; padding: 15px; width: 350px; border-radius: 25px;
+     border: 15px solid hsl(35, 36%, 46%); background-color: hsl(38, 36%, 75%); }
+textarea { display: block ; margin: 14px auto; padding: 15px; width: 350px; border-radius: 25px;
+     border: 15px solid hsl(35, 36%, 46%); background-color: hsl(38, 36%, 75%); }
+button { display: block; margin: 14px auto; padding: 15px; width: 350px; border-radius: 40px;
+     border: 20px solid hsl(35, 36%, 46%); background-color: hsl(38, 36%, 75%);cursor: pointer;} 
+     button:hover {background-color: hsl(53, 92%, 80%); color: hsl(38, 36%, 75%); color: #664422;}
+
+.musi {display: flex; justify-content:center; align-items: center;height: 30vh;}
+.musi:hover {transform: scale(1.1);}
+
+.sla { position: absolute; top: 10; left:0; width: 250px;}
+.sla:hover {transform: scale(1.1); box-shadow: 0 5px 20px hsl(43, 74%, 82%)}
+
+.gato { float: right;position: absolute; top: 530px; right: 10px; width: 250px;
+    background-color: hwb(34 29% 35%);border-radius: 10px;}
+.gato:hover {transform: scale(1.1);}
+
+    .dec { display: flex; justify-content: center; align-items: center; height: 10vh;       }
+
+.cat { float: right;position: absolute; top: 620px; right: 10px; width: 250px;
+    background-color: hwb(34 29% 35%);border-radius: 10px;}
+.cat:hover {transform: scale(1.1);}
+
+.pao { float:left;position: absolute; top: 530px; left: 10px; width: 590px;
+    background-color: hwb(34 73% 5%);border-radius: 10px;}
+.pao:hover {transform: scale(1.1);}
+
+ .food { float: left; }
+.food:hover {transform: scale(1.1); box-shadow: 0 5px 20px hsl(43, 74%, 82%);}
+
+.decorai { display: flex; justify-content: center; align-items: center; height: 10vh; }
+
+.resenha { float: left;position: absolute; top: 400px; right: 450px; width: 230px;
+    background-color: hwb(34 44% 8%);border-radius: 10px;}
+.resenha:hover {transform: scale(1.1); box-shadow: 0 5px 20px hsl(43, 83%, 68%);}
+
+.aura { position: absolute; top: 148px; left:0; width: 250px;}
+
+
+.an { float: left; position: absolute; top: 180px; left: 250px; width: 110px;
+    background-color: hwb(35 80% 8%);border-radius: 10px;}
+.an:hover {transform: scale(1.1); box-shadow: 0 5px 20px hsl(44, 32%, 84%);}
+
+.decorakey { float: right; position: absolute; top: 630px; right: 360px; height: 65vh; }
+.decorakey:hover {transform: scale(1.1);}
+
+.resultado {
+  background: linear-gradient(135deg, #d4a574, #c9956a);
+  color: #3e2723;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  white-space: pre-wrap;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  border: 3px solid #8b6f47;
+  position: absolute;
+  top: 170px;    
+  right: 370px;    
+  width: 300px;
+  z-index: 10; }
